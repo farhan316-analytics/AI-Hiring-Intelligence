@@ -56,5 +56,24 @@ Fairness metrics are exploratory. Results based on small synthetic samples canno
 - Conduct more robust subgroup and fairness testing.
 - Develop monitoring and human-review workflows.
 
+## Model Evaluation
+
+The Decision Tree model achieved a ROC-AUC of approximately 0.889 on the recorded evaluation dataset. It was compared with Logistic Regression using Dataiku DSS.
+
+### Model Comparison
+![Model comparison](screenshots/01_model_comparison.png)
+
+### Confusion Matrix
+![Confusion matrix](screenshots/03_confusion_matrix.png)
+
+### ROC Curve
+![ROC curve](screenshots/04_roc_curve.png)
+
+For additional details, see [Model Evaluation Report](documentation/model_evaluation.md).
+
+**Note:** This is an educational portfolio prototype. Results are dataset-specific and do not establish suitability for real-world hiring decisions.
+
+
 ## Disclaimer
 This project is an educational portfolio prototype. It is not a validated recruitment system and should not be used to make real employment decisions.
+
